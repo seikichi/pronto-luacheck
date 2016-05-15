@@ -7,3 +7,12 @@
 /pkg/
 /spec/reports/
 /tmp/
+
+.ruby-version
+.*~
+*~
+
+*.gem
+examples/
+.pryrc
+vendor/
