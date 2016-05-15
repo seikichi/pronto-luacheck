@@ -1,7 +1,2 @@
-require 'pronto/luacheck/version'
-
-module Pronto
-  module Luacheck
-    # Your code goes here...
-  end
-end
+require_relative 'luacheck/version'
+require_relative 'luacheck_runner'
