@@ -1,4 +1,4 @@
-require "pronto/luacheck/version"
+require 'pronto/luacheck/version'
 
 module Pronto
   module Luacheck
