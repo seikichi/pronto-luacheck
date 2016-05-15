@@ -1,5 +1,9 @@
 # Pronto::Luacheck
 
+[![Gem Version](https://badge.fury.io/rb/pronto-luacheck.svg)](http://badge.fury.io/rb/pronto-luacheck)
+[![Build Status](https://travis-ci.org/seikichi/pronto-luacheck.svg?branch=master)](https://travis-ci.org/seikichi/pronto-luacheck)
+[![Coverage Status](https://coveralls.io/repos/seikichi/pronto-luacheck/badge.svg?branch=master&service=github)](https://coveralls.io/github/seikichi/pronto-luacheck?branch=master)
+
 [Pronto](https://github.com/mmozuras/pronto) runner for [Luacheck](https://github.com/mpeterv/luacheck).
 
 `luacheck` is needed to be installed for this runner to work.
