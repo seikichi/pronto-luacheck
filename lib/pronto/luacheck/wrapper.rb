@@ -26,8 +26,8 @@ module Pronto
           next if testcase.elements.size != 1
 
           failure = testcase.elements.first
-          md = failure.attributes['message'].
-               match(/\A#{Regexp.escape(file)}:(?<line>\d+):(?<column>\d+):\s+(?<message>.*)\z/)
+          md = failure.attributes['message']
+               .match(/\A#{Regexp.escape(file)}:(?<line>\d+):(?<column>\d+):\s+(?<message>.*)\z/)
           next unless md
 
           result << {
