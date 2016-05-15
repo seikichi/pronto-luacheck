@@ -9,9 +9,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Seiichi KONDO']
   spec.email         = ['seikichi@kmc.gr.jp']
 
-  spec.summary       = 'TODO: Write a short summary, because Rubygems requires one.'
-  spec.description   = 'TODO: Write a longer description or delete this line.'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = 'Pronto runner for Luacheck'
+  spec.description   = <<-EOF
+    A pronto runner for Luacheck - Lua code analyzer.
+    Pronto runs analysis quickly by checking only the relevant changes.
+    Created to be used on pull requests, but suited for other scenarios as well.
+  EOF
+  spec.homepage      = 'https://github.com/seikichi/pronto-luacheck'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
