@@ -1,5 +1,6 @@
 require 'open3'
 require 'rexml/document'
+require 'shellwords'
 
 module Pronto
   module Luacheck
